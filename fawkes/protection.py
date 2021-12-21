@@ -78,6 +78,7 @@ class Fawkes(object):
             raise Exception("mode must be one of 'min', 'low', 'mid', 'high'")
         return th, max_step, lr, extractors
 
+    #TODO
     def run_protection(self, image_paths, th=0.04, sd=1e7, lr=10, max_step=500, batch_size=1, format='png',
                        separate_target=True, debug=False, no_align=False, exp="", maximize=True,
                        save_last_on_failed=True):
@@ -182,7 +183,7 @@ def main(*argv):
 
     args = parser.parse_args(argv[1:])
 
-    assert args.format in ['png', 'jpg', 'jpeg']
+    assert args.format in ['png', 'jpg', 'jpeg', 'mp4']
     if args.format == 'jpg':
         args.format = 'jpeg'
 

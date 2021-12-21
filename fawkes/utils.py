@@ -111,7 +111,7 @@ def load_image(path):
 
     return image_array
 
-
+#TODO
 def filter_image_paths(image_paths):
     print("Identify {} files in the directory".format(len(image_paths)))
     new_image_paths = []
