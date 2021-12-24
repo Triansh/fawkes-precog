@@ -1,3 +1,12 @@
+Task
+----
+
+The attached code contains source code of fawkes. Cloaked images are obtained using source code.
+
+Some jupyter notebooks are attached which contains 
+* Code of pytorch
+* Notebooks with code of structural similarity
+
 Fawkes
 ------
 :warning: Check out our MacOS/Windows Software on our official [webpage](https://sandlab.cs.uchicago.edu/fawkes/#code).
